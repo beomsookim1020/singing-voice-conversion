@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 환경
+.env
+.venv/
+venv/
+
+# 데이터 (절대 업로드 금지)
+data/raw/
+data/interim/
+data/processed/
+
+# 결과물
+artifacts/checkpoints/
+artifacts/models/
+artifacts/samples/
+
+# 오디오 파일
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# 모델 파일
+*.pth
+*.pt
+*.ckpt
+*.index
+
+# 로그
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/

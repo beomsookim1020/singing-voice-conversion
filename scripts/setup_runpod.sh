@@ -1,0 +1,1 @@
+scripts/setup_runpod.sh
